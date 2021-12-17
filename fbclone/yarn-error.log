@@ -1,0 +1,49 @@
+Arguments: 
+  D:\node.exe C:\Users\Ana Laura\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add next-auth
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\MinGW\bin;C:\Program Files\Git\cmd;D:\;C:\ProgramData\chocolatey\bin;C:\Users\Ana Laura\AppData\Local\Microsoft\WindowsApps;C:\Users\Ana Laura\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ana Laura\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;C:\Users\Ana Laura\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Ana Laura\Desktop\github\Clone Facebook\fbclone\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "fbclone",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@heroicons/react": "^1.0.5",
+      "next": "12.0.7",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "yarn": "^1.22.17"
+    },
+    "devDependencies": {
+      "autoprefixer": "^9.8.8",
+      "eslint": "8.4.1",
+      "eslint-config-next": "12.0.7",
+      "postcss": "^7.0.39",
+      "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
